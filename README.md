@@ -16,7 +16,7 @@ encryption and decryption.
 
 By default passman uses PBKDF2WithHmacSHA512, with 100,000 iterations to
 generate a 256-bit AES key. The encryption process uses AES/GCM/NoPadding with
-a randomized initialization vector and additional authentication data.
+a randomized initialization vector and supports additional authentication data.
 
 ## How is it licensed?
 Licensed under the Apache License, Version 2.0
