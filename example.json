@@ -1,0 +1,15 @@
+{
+  "data" : "Z+f7lzdXH1xDajVMkyv/It6WzdEx8Xvz0qtGZZ47f63gNAmpmNcHscV1SHuho1BXMc0Vse1WEiOmrKcFOLUqf7FxjsJw3QvGxTmHzgXuDenxMM5yRYdqQgxmkAGFV0gqutlSj/BKeWGl24BE2QwTLkvcU9I7NYD/IBe1qgWJEZtIbdYK2cPW9ENnAwW0+se1ojnOmKn7DxBMyoHEdeHuK8fKERFkXV54Aa/o98WAJ/k2QTi4Q594tx2bYu9JBG8KstWeomydOFuaN/z+4uawEhUSf00Ue/QA+eLn6MJ0obFZXdQbwbR7WLXzGqRaztajkSDUMBL2LZb5CHkIcIrVshIBT+Ptan/Z/STLt21lYbIrScltUNb1I80mAcWMplqOgofthN0qQTa0HY6npCC1H5vzyapzdW9GlnmxTRfwfhy0mvOAoiyNu/Ddorc1JEKXtUrrGnXyM0IMWRHK5S2MyXgkvraRbFThRQRwbOo622vz0g6WH5TahweIn03ZzKcBeXtSEEFw4WTWPy5rbPyd7EBdcW7mtRSoPKxFSqhEct68jtP8e26A6cbEw30Fw3aF2tkhPM6M6E6qIRSo9H92/7ykVCPmLBDv2qkdD1VzPP5F3ON1hkUFpxvZMKcMdkXgelkOm+B9Uv54qg6oIKZJsxuBVvSp9LthzFsmkniLJia/hM98x+X6V7UxT0PjHfQ5onkOxDb99CIXt3hpEavT2Nqt4QR+OMOKgEHjRI5k+0jtIlDf+p+5b8mKum0G",
+  "iv" : "RPK5i94AJlAEMoyrdnD+1A==",
+  "aad" : "vlULAmV5bDJo+wtUSjisBA==",
+  "cipherMeta" : {
+    "algorithm" : "AES/GCM/NoPadding",
+    "blockLength" : 16
+  },
+  "secretMeta" : {
+    "algorithm" : "PBKDF2WithHmacSHA512",
+    "iterations" : 100000,
+    "length" : 256,
+    "salt" : "cSPkv3VjyGMn12QDpI53NrEEWxDbiI7UqYXCq3+h6IQ="
+  }
+}
