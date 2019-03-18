@@ -32,7 +32,9 @@ public class Decryption {
         Cipher cipher = Cipher.getInstance(encryptionData.getCipherMeta().getAlgorithm());
         AlgorithmParameterSpec spec = new GCMParameterSpec(encryptionData.getCipherMeta().getBlockLength() * 8, encryptionData.getIv());
         cipher.init(Cipher.DECRYPT_MODE, secretBuilder.buildKey(), spec);
-        cipher.updateAAD(encryptionData.getAad());
+        if (encryptionData.getAad() != null) {
+            cipher.updateAAD(encryptionData.getAad());
+        }
         return cipher.doFinal(encryptionData.getData());
     }
 

@@ -1,8 +1,5 @@
 package net.darkport.passman.model;
 
-import net.darkport.passman.model.CipherMeta;
-import net.darkport.passman.model.SecretMeta;
-
 public class EncryptionData {
 
     private byte[] data;
